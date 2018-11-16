@@ -136,8 +136,8 @@ sweep(m1,MARGIN = 1, STATS = c(2,3,4,5), FUN='+')
 #margin=2 means column
 
 addmargins(m1,margin=1,sum) #colwise, added row
-
-
+addmargins(m1,margin=1,sd) #row-wise
+addmargins(m1,margin=1:2,mean) #both
 
 #dataframe ----
 
