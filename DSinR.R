@@ -177,6 +177,8 @@ df1$rollno #print only one column
 df1$gender=factor(df1$gender) #to convert gender into category, i.e. nominal data
 df1$course=factor(df1$course)
 
+#ordered factor
+
 df1[1,2]
 
 head(df1[,c(2,4)])
